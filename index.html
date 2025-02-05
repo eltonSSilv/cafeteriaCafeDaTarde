@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <!-- FONT GEO STETIC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
+  <!-- TITULO -->
+  <title>Café da Tarde</title>
+</head>
+<body>
+  <main>
+    <div class="box-container">
+      <video src="./assets/video/coffe.mp4" loop muted autoplay></video>
+      <div class="mask"></div>
+    </div>
+
+    <header>
+      <section>
+        <a href="#">
+          <img src="./assets/logo cafe da tarde/icone logo.png" alt="logo cafeteria">
+        </a>
+      </section>
+
+      <nav>
+        <div class="home">
+          <a href="#">Home</a>
+        </div>
+        <div class="menu">
+          
+          <a href="#">Menu</a>
+        </div>
+        <div class="about">
+          <a href="#">About</a>
+        </div>
+        <div class="adress">
+          <a href="#" onclick="clickOnBtn()">Adress</a>
+        </div>
+      </nav>
+    </header>
+
+    <article>
+      <section>
+      
+        <h3><span>Compre o melhor</span><br> café da região</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ducimus amet tempore quisquam, velit exercitationem deserunt repellendus nisi in saepe veritatis repellat quis facilis obcaecati mollitia nostrum deleniti necessitatibus porro!</p>
+        <button class="btn-link">
+          <a href="#">Pegue o seu agora</a>
+         </button>
+      
+      </section>
+    </article>
+
+    <aside>
+      <h2><span>Sobre</span> nós</h2>
+
+      <section>  
+          <div class="image">
+            <img src="./assets/picture/coffe.jpg" alt="imagem cafe">
+          </div>
+
+          <div class="text-about">
+            <h3><span> O que faz nosso</span> café especial</h3>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid earum necessitatibus aperiam facere est consequuntur, ullam perferendis molestiae architecto nostrum placeat dicta quisquam ducimus soluta! Itaque sed dolore error.</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam reprehenderit quisquam quo deleniti iste quibusdam veritatis cupiditate consectetur doloribus officia facilis ea dolorem quas atque facere, magnam excepturi similique!</p>
+            <button class=" btn-link">
+              <a href="#">
+                Saiba mais
+              </a>
+            </button>
+          </div>
+      </section>
+    </aside>
+  
+    <div class="modal">
+      <h3><span>Nosso</span> Endereço</h3>
+
+      <iframe id="modal"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.925871073644!2d-46.60077272571488!3d-23.535168460628473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58d66cc61875%3A0x5b98f163a43758c0!2sR.%20dos%20Prazeres%20-%20Belenzinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003021-085!5e0!3m2!1spt-BR!2sbr!4v1738014680626!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div class="modal-mask" onclick="toHideAdress()">
+
+    </div>
+
+  </main>
+
+  <footer>
+    <img src="./assets/logo cafe da tarde/logo letras e icones.png">
+  </footer>
+  
+  <script src="./scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:root {
+  font-size: 10px;
+  --main-color: #683C11;
+  --first-color: #CA9E67;
+  --black: #131313;
+  --bg: #010110;
+  --border: 0.1rem solid rgba(255, 255, 266, 0.3);
+}
